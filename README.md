@@ -74,8 +74,6 @@ Model final menggunakan **Logistic Regression dengan regularisasi L2 dan `C=0.00
 | Rata-rata F2 cross-validation terbaik | 90,41% |
 | F2 test | 89,61% |
 | Recall churn — test | 94,78% |
-| Precision churn — test | 73,56% |
-| Accuracy — test | 73,47% |
 
 Confusion matrix data test, dengan **kelas positif = churn**:
 
@@ -107,7 +105,6 @@ Aplikasi mendukung:
 - Prediksi massal melalui unggah CSV serta unduh hasil prediksi.
 - Tampilan probabilitas churn dan label prediksi.
 - Batas input mengikuti minimum–maksimum pada data train.
-- Threshold tetap **0,5 (50%)**, tanpa pengaturan pengguna: probabilitas ≥50% diklasifikasikan sebagai churn, sedangkan <50% sebagai active/no churn.
 - Logo Olist dan template CSV.
 
 Ekstrak paket aplikasi, buka terminal di folder yang berisi `app.py`, lalu jalankan:
