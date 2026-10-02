@@ -1,3 +1,4 @@
+# JCDSAH-026_Alpha
 # Olist Seller Churn Prediction
 
 Final project **Tim Alpha** untuk mengidentifikasi seller berisiko churn pada platform e-commerce Olist dan mendukung penentuan campaign retensi yang lebih terukur.
@@ -126,8 +127,7 @@ Versi aplikasi portabel menggunakan parameter yang diekspor dari model final mel
 |---|---|
 | `Olist_Seller_Churn_Prediction.ipynb` | Notebook ETL, EDA, pemodelan, dan evaluasi |
 | `olist_seller_churn_model_final.sav` | Pipeline model final yang disimpan |
-| `olist_seller_churn_X_train.csv` | Fitur data train dan referensi batas input |
-| `olist_seller_churn_streamlit_final.zip` | Paket aplikasi Streamlit |
+| `Model Deployment` | Paket aplikasi Streamlit |
 | `README.md` | Dokumentasi proyek |
 
 ## Rekomendasi
